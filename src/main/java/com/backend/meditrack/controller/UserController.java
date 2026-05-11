@@ -27,4 +27,9 @@ public class UserController {
         String token = userService.loginUser(request);
         return new LoginResponse(token);
     }
+
+    @GetMapping("/profile")
+    public String profile() {
+        return "Protected Profile API Accessed";
+    }
 }
