@@ -1,4 +1,4 @@
-# 🏥 MediTrack Backend
+# 🏥 MediTrack 
 
 MediTrack is a Personal Health & Medication Reminder System built using Spring Boot and MySQL.
 
