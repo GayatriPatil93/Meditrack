@@ -24,5 +24,14 @@ public class MedicationController {
     public List<Medication> getUSerMedications(){
         return medicationService.getUserMedications();
     }
+    @PutMapping("/{id}")
+    public Medication updateMedication(@PathVariable Long id, @RequestBody MedicationRequest request) {
+        return medicationService.updateMedication(id, request);
+    }
+
+    @DeleteMapping("/{id}")
+    public String deleteMedication(@PathVariable Long id) {
+        return medicationService.deleteMedication(id);
+    }
 
 }
