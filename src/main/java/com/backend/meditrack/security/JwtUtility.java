@@ -38,6 +38,7 @@ public class JwtUtility {
             return true;
 
         } catch (Exception e) {
+            e.printStackTrace();
             return false;
         }
     }
