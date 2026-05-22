@@ -12,7 +12,6 @@ This backend project provides:
 * Validation & Exception Handling
 
 ---
-
 ## 🚀 Tech Stack
 
 * Java 17
